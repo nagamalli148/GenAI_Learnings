@@ -1,0 +1,61 @@
+# ================================================================
+# GenAI Workshop - Dependencies
+# ================================================================
+# Install with: pip install -r requirements.txt
+# ================================================================
+
+# Core LangChain
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+
+# Ollama (LOCAL models - FREE, no API key needed!)
+langchain-ollama>=0.1.0
+
+# Google Gemini API (optional - if you want cloud models)
+langchain-google-genai>=4.0.0
+google-generativeai>=0.8.0
+
+# LangGraph for agents
+langgraph>=0.1.0
+
+# LangSmith for observability
+langsmith>=0.1.0
+
+# HuggingFace integration
+langchain-huggingface>=0.0.3
+transformers>=4.36.0
+sentence-transformers>=2.2.0
+
+# Vector stores
+chromadb>=0.4.0
+
+# ML frameworks (for HuggingFace models)
+torch>=2.0.0
+# Install with CUDA support if you have GPU:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+numpy>=1.24.0
+ipywidgets>=8.0.0  # For Jupyter notebook progress bars
+
+# Optional: For quantized models (4-bit/8-bit)
+# bitsandbytes>=0.41.0  # Requires CUDA
+# accelerate>=0.24.0
+
+# Optional: For PDF loading
+# pypdf>=3.0.0
+# unstructured>=0.10.0
+
+# Optional: For web scraping
+# beautifulsoup4>=4.12.0
+# requests>=2.31.0
+
+# Optional: For Ollama integration
+# ollama>=0.1.0
+
+# Development tools (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
